@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: echo-app
+spec:
+  containers:
+  - name: echo-app
+    image: registry.cluster.wik.cloud/public/echo
+    ports:
+    - containerPort: 80
