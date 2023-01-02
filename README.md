@@ -60,4 +60,10 @@ Apply ingress
 k apply -f ingress.yaml
 ```
 
+Add the host to your /etc/hosts file to resolve  wik-dps-tp02.echo hostname.
+```
+172.16.166.6 wik-dps-tp02.echo
+```
 
+You can access it at http://wik-dps-tp02.echo/ping
+![plot](./assets/capture.png)

@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: echo-app
-        image: registry.cluster.wik.cloud/public/echo
+        image:  yanissdu33/wik-dps-tp02:latest
         ports:
         - containerPort: 8080

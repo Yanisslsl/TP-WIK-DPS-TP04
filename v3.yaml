@@ -5,7 +5,7 @@ metadata:
     app: echo-app
   name: echo-app
 spec:
-  replicas: 4
+  replicas: 1
   selector:
     matchLabels:
       app: echo-app
@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: echo-app
-        image: registry.cluster.wik.cloud/public/echo
+        image:  yanissdu33/wik-dps-tp02:latest
         ports:
         - containerPort: 8080
       restartPolicy: Always
